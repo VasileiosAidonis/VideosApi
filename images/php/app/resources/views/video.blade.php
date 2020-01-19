@@ -23,9 +23,8 @@
        </div>
        <div class="h2 pl-3 pr-4 justify-content-start" style="border-left:2px solid #333;">MyFlix</div>
     </a>
-    <a class="navbar-brand d-flex">
-       <div class="h5 pr-5 d-flex justify-content-end"><a href="/">Home</a></div>
-    </a>
+    <div class="h5 pr-5 d-flex justify-content-end"><a href="/">Home</a></div>
+
     <div class="d-flex">
         <div class="pl-1" style=""><img src="{{ $video->image }}" decoding="async" style="height:70px; width:90px;"></div>
         <div class="h3 pt-4" style="margin-left: 50px;"> &#10077; {{ $video->name }} &#10078; </div>
